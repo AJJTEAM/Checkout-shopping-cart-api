@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "CheckoutShopping.API": {
+      "target": "project"
+    },
+    "dotnet-test-nunit": "3.4.0-beta-3",
+    "Moq": "4.7.10",
+    "NUnit": "3.6.1"
+  },
+
+  "testRunner": "nunit",
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ],
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.1-*",
+          "type": "platform"
+        }
+      }
+    }
+  }
+}
